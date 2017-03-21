@@ -20,9 +20,7 @@ class Employee:
         return  self.pay
 
 
-# Class method and Decorator(Class method passes cls as the firt argument)
-
-
+# Class method and Decorator(Class method passes cls as the first argument)
     @ classmethod
     def setraise_amount (cls,amt):
         cls.raise_amt =  amt
